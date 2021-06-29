@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "SAMPLES.C": "cpp",
+        "stdio.h": "c",
+        "SAMPLE.C": "cpp",
+        "LARGESTNOARRAY.C": "cpp",
+        "REVERSESTRINGS.C": "cpp",
+        "stdlib.h": "c"
+    }
+}
