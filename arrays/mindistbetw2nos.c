@@ -4,7 +4,7 @@
 
 int misDist(int arr[], int n, int x, int y)
 {
-int index1=0,index2=0;
+        int index1=0,index2=0;
         int min = INT_MAX;
         int count = 0;
         int flag = 0,flag2=0;
@@ -48,6 +48,5 @@ int main()
     int n = 4;
     int x = 1;
     int y = 2;
-
     printf("%d",misDist(a,n,x,y));
 }
