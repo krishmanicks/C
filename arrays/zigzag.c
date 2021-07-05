@@ -9,7 +9,7 @@ void swap(int *x, int *y)
 
 int zigzag(int a[], int n)
 {
-    int j=1;
+   
     int i;
     for(i=1; i<n; i+=2)
     {

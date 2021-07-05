@@ -44,10 +44,9 @@ void preorder(struct Node *root)
 void isbst(struct Node *root)
 {
     if(root == NULL)
-        {
-        printf("hello everyone"); 
+    {
         return;
-        }
+    }
     if(root->left->data > root->data)
     {
         printf("\n not a bst");
@@ -76,8 +75,6 @@ int isbstt(struct Node *root, struct Node *l, struct Node *r)
             {
                 return 0;
             }
-
-        printf("%d fuck",l);
         
         return isbstt(root->left,l,root) && isbstt(root->right,root,r);
     }
@@ -92,7 +89,7 @@ void main()
    struct Node *root = NULL;
    root = create();
    preorder(root);
-   //isbst(root);
+
    if(isBST(root))
         printf("true");
    else
