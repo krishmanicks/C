@@ -20,8 +20,8 @@ void printarray(int arr[], int n)
 void heapify(int arr[], int n, int i)
 {
     int largest = i;
-    int l = 2*i +1;
-    int r = 2*i +2;
+    int l = 2*i + 1;
+    int r = 2*i + 2;
 
     if(l<n && arr[l] > arr[largest])
         largest = l;
@@ -53,7 +53,7 @@ int heapsort(int arr[], int n)
 int main()
 {
     int arr[] ={9,5,2,8,100,-3,6,1,3,7};
-    int n = 8;
+    int n = sizeof(arr)/sizeof(arr[0]);
 
     heapsort(arr,n);    
     printarray(arr,n);
