@@ -33,26 +33,56 @@
 // } 
 
 // Online C compiler to run C program online
-#include <stdio.h>
-#include<math.h>
+// #include <stdio.h>
+// #include<math.h>
 
-int main() 
-{
-   printf("done\n");
-   int n=6;
-   float sum;
-   int i = 0;
-   float a[] = {44,-3,20.4,6,3.5,-34};
-   while(i<n)
-   {
-       if(a[i] > 0 && (floor(a[i]) ==  a[i]) )
-       {
-       sum += a[i];
-       }
-       i++;
-   }
-   int c = (int)sum;
-   printf("%d",c);
+// int main() 
+// {
+//    printf("done\n");
+//    int n=6;
+//    float sum;
+//    int i = 0;
+//    float a[] = {44,-3,20.4,6,3.5,-34};
+//    while(i<n)
+//    {
+//        if(a[i] > 0 && (floor(a[i]) ==  a[i]) )
+//        {
+//        sum += a[i];
+//        }
+//        i++;
+//    }
+//    int c = (int)sum;
+//    printf("%d",c);
     
-    return 0;
+//     return 0;
+// }
+
+#include<stdio.h>
+
+
+
+int main()
+{
+    char c[] = "a3b14";
+    
+    for(int i=0;c[i]!='\0';)
+    {   
+          char alpha = c[i];
+          i++;
+          int num = 0;
+
+        while((c[i] >= '0' && c[i] <= '9'))
+        {
+            num = num*10 + (c[i] - '0');
+            i++;
+        }
+        for(int k=0;k<num;k++)
+        {
+            printf("%c",alpha);
+        }
+    }
+    
+    
 }
+
+
