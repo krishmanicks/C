@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "SAMPLE.C": "cpp"
+        "SAMPLE.C": "cpp",
+        "LARGESTNOARRAY.C": "cpp",
+        "REVERSESTRINGS.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

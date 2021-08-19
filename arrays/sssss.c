@@ -51,9 +51,9 @@ void count(int a[], int curr, int n, int next)
 int main() 
 {
   int i,j;
-  int n=3;
-  int a[]={6,4,2};
-  int curr=4,next=1;
+  int n=5;
+  int a[]={7,2,6,4,5};
+  int curr=4,next=5;
 
   count(a,curr,n,next);
   

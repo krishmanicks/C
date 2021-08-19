@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a[] = {1,2,3,4,5,6,7,8,9};
+    int a[] = {1,2,3,4,5,6,7,8};
     int n=sizeof(a)/sizeof(a[0]);  //9
     int i,mini=0, maxi=n-1; // value = 9
     int m = a[n-1] +1; //value = 9 pointing
